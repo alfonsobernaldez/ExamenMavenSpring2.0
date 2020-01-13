@@ -7,14 +7,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
     </head>
     <body>
-        <h1>bienvenido a Motor Land</h1>
-        
         <div class="container">
             <ol class="breadcrumb">
-                <li>Listado de Motores</li>
-                <li class="active">Alta motor</li>
+                <li><a href="<c:url value="listado.htm" />">Listado de Motores</li>
+                
             </ol>
                               
                         <form:form method="post" commandName="motor">
